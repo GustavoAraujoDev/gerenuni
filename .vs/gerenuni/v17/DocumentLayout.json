@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|c:\\users\\gustavo araujo\\source\\repos\\gerenuni\\gerenuni\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|solutionrelative:gerenuni\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|c:\\users\\gustavo araujo\\source\\repos\\gerenuni\\gerenuni\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|solutionrelative:gerenuni\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|c:\\users\\gustavo araujo\\source\\repos\\gerenuni\\gerenuni\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|solutionrelative:gerenuni\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|c:\\users\\gustavo araujo\\source\\repos\\gerenuni\\gerenuni\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|solutionrelative:gerenuni\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|c:\\users\\gustavo araujo\\source\\repos\\gerenuni\\gerenuni\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E376402-9B72-4F7B-9C29-392221A6E50C}|gerenuni\\gerenuni.csproj|solutionrelative:gerenuni\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Program.cs",
+              "RelativeDocumentMoniker": "gerenuni\\Program.cs",
+              "ToolTip": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Program.cs",
+              "RelativeToolTip": "gerenuni\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:48:23.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "gerenuni\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Models\\Produto.cs",
+              "RelativeToolTip": "gerenuni\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:10:41.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "gerenuni\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "gerenuni\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:54:22.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "gerenuni\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Pages\\Index.cshtml",
+              "RelativeToolTip": "gerenuni\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T13:02:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "gerenuni\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Araujo\\source\\repos\\gerenuni\\gerenuni\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "gerenuni\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T11:53:46.923Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

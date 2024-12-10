@@ -1,0 +1,105 @@
+﻿@page
+@model gerenuni.Pages.IndexModel
+@{
+    ViewData["Title"] = "Lista de Produtos";
+}
+
+<h1>Lista de Produtos</h1>
+
+<!-- Formulário para Adicionar Produto -->
+<h3>Adicionar Produto</h3>
+<form method="post" asp-page-handler="Create">
+    <div class="form-group">
+        <label for="id">Id</label>
+        <input type="number" class="form-control" id="id" name="Produto.Id" required />
+    </div>
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="Produto.Nome" required />
+    </div>
+    <div class="form-group">
+        <label for="preco">Preço</label>
+        <input type="number" class="form-control" id="preco" name="Produto.Preco" step="0.01" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Adicionar Produto</button>
+</form>
+
+<hr />
+
+<!-- Tabela de Produtos com Botões de Deletar e Atualizar -->
+<h3>Produtos Cadastrados</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Nome</td>
+                <td>@product.Preco</td>
+                <td>
+                    <!-- Botão de Deletar -->
+                    <form method="post" asp-page-handler="Delete" asp-route-id="@product.Id" onsubmit="return confirm('Tem certeza que deseja deletar?');">
+                        <button type="submit" class="btn btn-danger">Deletar</button>
+                    </form>
+
+                    <!-- Botão de Atualizar -->
+                    <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updateModal" data-id="@product.Id" data-nome="@product.Nome" data-preco="@product.Preco">
+                        Atualizar
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal de Atualização -->
+<div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" asp-page-handler="Update">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="updateModalLabel">Atualizar Produto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="updateId" name="Produto.Id" />
+                    <div class="form-group">
+                        <label for="updateNome">Nome</label>
+                        <input type="text" class="form-control" id="updateNome" name="Produto.Nome" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="updatePreco">Preço</label>
+                        <input type="number" class="form-control" id="updatePreco" name="Produto.Preco" step="0.01" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-success">Salvar Alterações</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Preencher os campos do modal de atualização
+    const updateModal = document.getElementById('updateModal');
+    updateModal.addEventListener('show.bs.modal', function (event) {
+        const button = event.relatedTarget;
+        const id = button.getAttribute('data-id');
+        const nome = button.getAttribute('data-nome');
+        const preco = button.getAttribute('data-preco');
+
+        document.getElementById('updateId').value = id;
+        document.getElementById('updateNome').value = nome;
+        document.getElementById('updatePreco').value = preco;
+    });
+</script>
